@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="خدمات ومنتجات The Legacy للأزياء الرجالية - البدل الرسمية، الأزياء الكاجوال، والتفصيل وتعديل المقاسات">
+    <title>الخدمات والمنتجات الرجالية | The Legacy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-mark">T<span>L</span></span>
+                <span class="logo-text">The Legacy<small>الأزياء الرجالية</small></span>
+            </a>
+            <button class="menu-toggle" aria-label="فتح القائمة" onclick="toggleMenu()">&#9776;</button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="services.html" class="active">الخدمات والمنتجات</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="section services-section">
+        <div class="container">
+            <div class="section-heading">
+                <span class="subtitle">ما نقدمه</span>
+                <h2>خدماتنا ومنتجاتنا الرجالية</h2>
+                <p>تشكيلة حصرية من الخدمات المصممة خصيصاً للرجل، لتلبية كل احتياجاتك من الأناقة والتميز.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <article class="service-card">
+                    <div class="service-card-image">
+                        <img src="assets/images/suits.webp" alt="البدل الرسمية والكلاسيكية">
+                    </div>
+                    <div class="service-card-body">
+                        <h3>البدل الرسمية والكلاسيكية</h3>
+                        <p>
+                            تشكيلة راقية من البدل والقمصان الرسمية بقصّات عصرية وخامات فاخرة
+                            تناسب العمل والمناسبات.
+                        </p>
+                        <a href="contact.html" class="btn btn-primary">اطلب الآن &#8592;</a>
+                    </div>
+                </article>
+
+                <!-- Service 2 -->
+                <article class="service-card">
+                    <div class="service-card-image">
+                        <img src="assets/images/casual.webp" alt="الأزياء الكاجوال واليومية">
+                    </div>
+                    <div class="service-card-body">
+                        <h3>الأزياء الكاجوال واليومية</h3>
+                        <p>
+                            تيشيرتات وبناطيل وجاكيتات عصرية مريحة بتصاميم شبابية
+                            وألوان متناسقة.
+                        </p>
+                        <a href="contact.html" class="btn btn-accent">اطلب الآن &#8592;</a>
+                    </div>
+                </article>
+
+                <!-- Service 3 -->
+                <article class="service-card">
+                    <div class="service-card-image">
+                        <img src="assets/images/tailoring.webp" alt="التفصيل وتعديل المقاسات">
+                    </div>
+                    <div class="service-card-body">
+                        <h3>التفصيل وتعديل المقاسات</h3>
+                        <p>
+                            خدمة أخذ المقاسات بدقة وتعديل القطع لتناسب قوامك
+                            مع توصيل سريع لجميع المناطق.
+                        </p>
+                        <a href="contact.html" class="btn btn-primary">احجز الخدمة &#8592;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>لديك استفسار عن منتجاتنا الرجالية؟</h2>
+            <p>فريقنا جاهز لمساعدتك واختيار القطعة المثالية التي تناسبك.</p>
+            <a href="contact.html" class="btn btn-accent">تواصل معنا الآن &#8592;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">The <span>Legacy</span></div>
+                <p>متجر الأزياء الرجالية العصرية والكلاسيكية - أرقى الخامات والتصاميم الخاصة بالرجل.</p>
+                <div class="footer-links">
+                    <a href="index.html">الرئيسية</a>
+                    <a href="services.html">الخدمات والمنتجات</a>
+                    <a href="contact.html">تواصل معنا</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 The Legacy. جميع الحقوق محفوظة.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('mainNav');
+            nav.classList.toggle('nav-open');
+        }
+    </script>
+</body>
+</html>

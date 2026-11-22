@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="متجر The Legacy للأزياء الرجالية العصرية والكلاسيكية - أرقى الخامات والتصاميم الخاصة بالرجل في المملكة">
+    <title>The Legacy | متجر الأزياء الرجالية العصرية والكلاسيكية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-mark">T<span>L</span></span>
+                <span class="logo-text">The Legacy<small>الأزياء الرجالية</small></span>
+            </a>
+            <button class="menu-toggle" aria-label="فتح القائمة" onclick="toggleMenu()">&#9776;</button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="active">الرئيسية</a></li>
+                    <li><a href="services.html">الخدمات والمنتجات</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">مرحباً بكم في عالم الأناقة الرجالية</span>
+                <h1>متجر <span>The Legacy</span> للأزياء الرجالية العصرية والكلاسيكية</h1>
+                <p>
+                    وجهتكم الأولى في المملكة للأزياء الرجالية التي تجمع بين روح العصر وجمال الكلاسيكيات.
+                    نختار لكم أرقى الخامات والتصاميم الخاصة بالرجل، من البدل الرسمية إلى القطع اليومية،
+                    لتحصل على إطلالة راقية تعكس شخصيتك وثقتك في كل مناسبة.
+                </p>
+                <div class="hero-actions">
+                    <a href="services.html" class="btn btn-primary">تصفح خدماتنا &#8592;</a>
+                    <a href="contact.html" class="btn btn-outline">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features">
+        <div class="container">
+            <div class="section-heading">
+                <span class="subtitle">لماذا نحن؟</span>
+                <h2>تميز رجالي نفتخر به</h2>
+                <p>التزامنا بالجودة والدقة يجعلنا الخيار الأمثل لكل رجل يبحث عن الأناقة الحقيقية.</p>
+                <div class="divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">&#9733;</div>
+                    <h3>خامات فاخرة</h3>
+                    <p>أقمشة رجالية مختارة بعناية فائقة تجمع بين الراحة والمتانة والأناقة.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">&#9986;</div>
+                    <h3>عصري وكلاسيكي</h3>
+                    <p>تصاميم رجالية تواكب أحدث الصيحات مع لمسة كلاسيكية خالدة تناسب ذوقك.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">&#128666;</div>
+                    <h3>توصيل سريع</h3>
+                    <p>خدمة توصيل موثوقة تغطي جميع المناطق لتصلك طلباتك في الوقت المناسب.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>جاهز لاكتشاف تشكيلتنا الرجالية؟</h2>
+            <p>تصفح مجموعاتنا المتنوعة واختر ما يناسبك من تصاميم استثنائية.</p>
+            <a href="services.html" class="btn btn-accent">عرض الخدمات والمنتجات &#8592;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">The <span>Legacy</span></div>
+                <p>متجر الأزياء الرجالية العصرية والكلاسيكية - أرقى الخامات والتصاميم الخاصة بالرجل.</p>
+                <div class="footer-links">
+                    <a href="index.html">الرئيسية</a>
+                    <a href="services.html">الخدمات والمنتجات</a>
+                    <a href="contact.html">تواصل معنا</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 The Legacy. جميع الحقوق محفوظة.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('mainNav');
+            nav.classList.toggle('nav-open');
+        }
+    </script>
+</body>
+</html>
